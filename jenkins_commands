@@ -1,0 +1,67 @@
+    1  sudo yum update
+    2  sudo yum install docker
+    3  docker
+    4  sudo systemctl start docker
+    5  docker ps
+    6  sudo usermod -aG docker ec2-user
+    7  docker ps
+    8  exit
+    9  docker ps
+   10  history
+   11  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   12  sudo chmod +x /usr/local/bin/docker-compose
+   13  docker compose
+   14  docker-compose
+   15  touch docker-compose.yml
+   16  vi docker-compose.yml
+   17  sudo ./docker-compose up
+   18  pwd
+   19  mkdir jenkins
+   20  export JENKINS_HOME=/home/ec2-user/jenkins/
+   21  docker-compose up -d
+   22  vi docker-compose.yml
+   23  docker-compose up -d
+   24  vi docker-compose.yml
+   25  docker-compose up -d
+   26  ls
+   27  echo $JENKINS_HOME
+   28  vi docker-compose.yml
+   29  docker-compose up -d
+   30  vi docker-compose.yml
+   31  docker-compose up -d
+   32  docker ps
+   33  docker logs jenkins | less
+   34  docker exec -it 746a9168519b sh
+   35  touch demo.txt
+   36  vi demo.txt
+   37  ls
+   38  cd jenkins
+   39  ls
+   40  cd ..
+   41  ls
+   42  git clone https://github.com/alvinabel007/task.git
+   43  sudo yum install git
+   44  git clone https://github.com/alvinabel007/task.git
+   45  git add .
+   46  ls
+   47  git status
+   48  cd task
+   49  git status
+   50  git add demo.txt
+   51  cd ..
+   52  mv demo.txt /home/ec2-user/task
+   53  cd task
+   54  git add .
+   55  git status
+   56  git commit -m "new file"
+   57  git remote origin main
+   58  git remote add origin
+   59  git remote add origin main
+   60  git push -u -f origin main
+   61  touch 1.txt
+   62  git add 1.txt
+   63  git commit -m "demo"
+   64  git push -u -f origin main
+   65  history
+   66  hisory > 1.txt
+   67  history > 1.txt
